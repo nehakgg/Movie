@@ -1,0 +1,404 @@
+        @media only screen and (max-width: 1199.98px) { 
+            .navbar img{
+                width: 110px;  
+                height: auto;
+            }
+             .section1{
+                margin:22px 13px 0 13px;
+            }
+            .poster{
+                margin:100px 25px 0 25px;
+            }            
+            .cropimg{
+                width:100%;
+                height:auto;
+                object-fit: cover;
+            }
+            .letter{
+                font-size:50px;
+            }
+            .correct .card-title , .genre .card-title{
+                font-size:18px;
+            }
+            .card-movie-large .card-title{
+                font-size: 30px;
+            }
+            .correct .card-title .lang{
+                font-size: 15px;
+                bottom: -5px;
+                left:5px;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 90px;
+                height: auto;
+            }
+         }
+
+        /*completed above*/
+         
+        @media only screen and (max-width: 991.98px) { 
+            .navbar img{
+                width: 90px;
+                height: auto;
+            }
+            .poster img{
+                display: none;
+            }
+            .heading{
+                font-size: 35px;
+            }
+            .description{
+                font-size:16px;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 12px;
+                font-size: 16px;
+            }
+            .section1{
+                margin:22px 25px 0 25px;
+            }
+            .barheads{
+                font-size: 25px;
+            }
+            .togivemargin{
+                margin-top: 22px;
+            }
+            .correct:hover .card-body {
+                display: none;
+            }
+            .cropimg{
+                width:100%;
+                height: auto;
+                object-fit: cover;
+            }
+            .genre .card-title{
+                font-size:15px;
+            }
+            .card-movie-large .heading{
+                font-size: 28px;
+            }
+            .letter{
+                font-size: 45px;
+            }
+            .correct .lang{
+                font-size: 12px;
+                bottom: -5px;
+                left:5px;
+            }
+            .genre .card-body{
+                padding: 7px;
+            }
+            .genresmall{
+                display: none;
+            }
+            .page-footer nav {
+                font-size: 14px;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 80px;
+                height: auto;
+            }
+        }
+
+        /*completed above*/
+            
+        @media only screen and (max-width: 767.98px) {
+            .navbar img{
+                width: 80px;
+                height: auto;
+            }
+            .poster img{
+                display: none;
+            }
+            .heading{
+                font-size: 30px;
+            }
+            .description{
+                font-size: 14px;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 12px;
+                font-size: 14px;
+            }
+            .section1{
+                margin:18px 15px 0 15px;
+            }
+            .barheads{
+                font-size: 18px;
+            }
+            .togivemargin{
+                margin-top: 18px;
+            }
+            .correct:hover .card-body{
+                display: none;
+            }
+            .cropimg ,.genre .card-img-top{
+                height: 160px;
+                width: auto;
+                object-fit: cover;
+            }
+            .genre .card-title{
+                font-size:12px;
+            }
+            .card-movie-large .heading{
+                font-size: 24px;
+            }
+            .letter{
+                font-size: 30px;
+            }
+            .correct .lang{
+                font-size: 10px;
+                bottom: -5px;
+                left:5px;
+            }
+            .genre .card-body{
+                padding: 7px;
+            }
+            .genresmall{
+                display: none;
+            }
+            .page-footer nav {
+                font-size: 12px;
+            }
+            .page-footer .navbar ul{
+                flex-wrap: nowrap;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 70px;
+                height: auto;
+            }
+        }
+
+        /*above completed*/
+
+        @media only screen and (max-width: 575.98px) 
+        { 
+            .navbar .nav-item{
+            display: block;
+            width:50%;
+            padding: 10px 0;
+            text-align: center;
+            }
+            .navbar .nav{
+                background-color: #203345;
+            }
+            .topnav{
+                flex-direction: column;
+            }
+            .navbar img{
+                width: 70px;
+                height: auto;
+            }
+            .poster{
+                margin:8px;
+            }
+            .poster img{
+                display: none;
+            }
+            .holder{
+                margin-top: 60px;
+                height: max-content;
+            }
+            .heading{
+                font-size: 25px;
+            }
+            .description{
+                font-size: 12px;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 8px;
+                font-size: 12px;
+            }
+            .section1{
+                margin:15px 8px 0 8px;
+            }
+            .barheads{
+                font-size:16px;
+            }
+            .togivemargin{
+                margin-top: 15px;
+            }
+            .correct:hover .card-body{
+                display: none;
+            }
+            .cropimg ,.genre .card-img-top{
+                height: 120px;
+                width: auto;
+                object-fit: cover;
+            }
+            .correct ,.formobile{
+                flex-basis:48%;
+            }
+            .to-space-card-evenly{
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+            }
+            .hide-in-mob{
+                display: none;
+            }
+            .genre .card-title{
+                font-size:12px;
+            }
+            .card-movie-large .heading{
+                font-size: 18px;
+            }
+            .card-movie-large p{
+                display: none;
+            }
+            .genre .card-body{
+                padding: 4px;
+            }
+            .card-movie-large .card-body{
+                width: 100%;
+            }
+            .genresmall{
+                display: none;
+            }
+            .page-footer h5{
+                font-size: 15px;
+            }
+            .page-footer nav {
+                font-size: 10px;
+            }
+            .page-footer .navbar ul{
+                flex-wrap: nowrap;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 50px;
+                height: auto;
+            }
+    }
+    /*completed above*/
+
+    @media only screen and (max-width:375px) 
+    { 
+        .navbar .nav-item{
+            display: block;
+            width:50%;
+            padding: 10px 0;
+            text-align: center;
+            }
+            .navbar .nav{
+                background-color: #203345;
+            }
+            .topnav{
+                flex-direction: column;
+            }
+            .navbar img{
+                width: 70px;
+                height: auto;
+            }
+            .poster{
+                margin:8px;
+            }
+            .poster img{
+                display: none;
+            }
+            .holder{
+                margin-top: 60px;
+                height: max-content;
+            }
+            .heading{
+                font-size: 25px;
+            }
+            .description{
+                font-size: 12px;
+            }
+            .forspacing{
+                margin-left:8px;
+                margin-top: 10px;
+            }
+            .description button, .description a{
+                margin-left: 8px;
+                font-size: 12px;
+            }
+            .section1{
+                margin:15px 8px 0 8px;
+            }
+            .barheads{
+                font-size:16px;
+            }
+            .togivemargin{
+                margin-top: 15px;
+            }
+            .cropimg , .genre .card-img-top{
+                height: 84px;
+                width: auto;
+                object-fit: cover;
+            }
+            .correct:hover .card-body{
+                display: none;
+            }
+            .correct ,.formobile{
+                flex-basis:48%;
+            }
+            .to-space-card-evenly{
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+            }
+            .hide-in-mob{
+                display: none;
+            }
+            .genre .card-title{
+                font-size:12px;
+            }
+            .card-movie-large .heading{
+                font-size: 18px;
+            }
+            .card-movie-large p{
+                display: none;
+            }
+            .genre .card-body{
+                padding: 6px;
+            }
+            .card-movie-large .card-body{
+                width: 100%;
+            }
+            .genresmall{
+                display: none;
+            }
+            .page-footer h5{
+                font-size: 15px;
+            }
+            .page-footer nav {
+                font-size: 10px;
+            }
+            .page-footer .navbar ul{
+                flex-wrap: nowrap;
+            }
+            .page-footer .navbar ul li, .page-footer p{
+                line-height: 1;
+            }
+            footer p img{
+                width: 50px;
+                height: auto;
+            }
+}
+
+
